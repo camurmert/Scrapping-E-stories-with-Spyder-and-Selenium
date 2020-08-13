@@ -1,0 +1,17 @@
+
+
+In this project, a program was built which can extract qualitative values from a well-known e-story web site such as story name and author name by using spiders, XPath queries, and CSS queries.
+Scrapy and Selenium are used mainly. In the website, the second element of the browse section is scraped so results can be changeable by the language of your browser.
+For example in English adventure is the second element and science fiction is the second element for Turkish.
+Additionally, this project was done for just one genre in the browse section and other genres can be added for future studies.
+
+
+The website: "https://www.wattpad.com"
+
+adventure.py --> This is the document which inludes bot and spider.
+
+ScrapyProject / wattpad / wattpad / spiders / adventure.py
+
+
+The features (link, name, author, readcount, votecount, and partnumber)  can be downloaded as a csv file by "scrapy crawl wattpad -o wattpad.csv" for each product.
+
